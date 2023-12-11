@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.title{
+    font-size: 5rem;
+    border-color: #3e3b6b;
+    margin: 4cm;
+}
+body {
+  background-color: #e0eef3;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+}
+
+input {
+  height: 55px;
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+ul {
+
+  padding: 0;
+  margin-top: 0px;
+  display:contents;
+  
+  
+}
+
+li {
+    text-align: center;
+    width: 20rem;
+    height:5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin: 1cm;
+  margin-top: 0px;
+  border-style:groove;
+}
+
+.button-add {
+  height: 30px;
+  width: 80px;
+  background-color: #3e3b6b;
+  color: white;
+  font-size: 1.05rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.button-delete {
+    display:grid ;
+margin: auto;
+margin-bottom: 2cm;
+    height: 30px;
+    width: 80px;
+    background-color: #692f2a;
+    color: white;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+button:hover {
+  background-color: #0c07ad;
+}
